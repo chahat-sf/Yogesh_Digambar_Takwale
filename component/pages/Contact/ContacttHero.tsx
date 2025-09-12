@@ -1,8 +1,9 @@
 import { ArrowRightLeftIcon } from "lucide-react";
 import Link from "next/link";
 
-export default function AboutHero() {
+export default function ContactHero() {
   return (
+    
     <section
       className=" relative w-full  justify-center items-center pb-20"
       style={{
@@ -15,7 +16,7 @@ export default function AboutHero() {
     >
       <div className="w-full relative max-w-6xl mx-auto ">
         <h1 className="text-4xl text-center sm:text-left sm:text-[70px] max-w-7xl mx-auto font-bold text-white/80 pt-70 pb-30">
-          About US
+          Contact US
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-[3fr_1fr]  items-end">
  
@@ -24,8 +25,8 @@ export default function AboutHero() {
             Home
           </Link>{" "}
           <ArrowRightLeftIcon size={12} />{" "}
-          <Link href="/about" className="underline hover:text-gray-400">
-            About
+          <Link href="/contact" className="underline hover:text-gray-400">
+            Contact US
           </Link>
         </p>
         <p
@@ -39,6 +40,7 @@ export default function AboutHero() {
         </div>
        {" "}
       </div>
+      
     </section>
   );
 }

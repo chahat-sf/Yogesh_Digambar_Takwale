@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Navbar from "@/component/global/Navbar";
+import Footer from "@/component/global/Footer";
 
 // Switzer
 export const switzer = localFont({
@@ -67,7 +68,7 @@ export const spaciaz = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Jaipur Accommodation",
+  title: "Yogesh Digambar Takwale",
   description: "Luxury stays with comfort and excellence",
 };
 
@@ -84,6 +85,7 @@ export default function RootLayout({
       <body  className=" antialiased  " >
         <Navbar />
         <div className="z-1 -mt-50">{children}</div>
+        <Footer/>
       </body>
     </html>
   );

@@ -36,8 +36,8 @@ const card: carddata[] = [
 
 export default function WhatweCard() {
   return (
-    <section className="py-30 mx-auto bg-[#f6f3ec]">
-      <h2 className="text-center text-5xl md:text-[70px] font-bold px-10 max-w-3xl mx-auto leading-[1.2]">
+    <section className="pt-20 sm:py-30 mx-auto bg-[#f6f3ec]">
+      <h2 className="text-center text-3xl sm:text-5xl md:text-[70px] font-bold px-10 max-w-3xl mx-auto leading-[1.2]">
         Take a brief look at some of the services we offer
       </h2>
 

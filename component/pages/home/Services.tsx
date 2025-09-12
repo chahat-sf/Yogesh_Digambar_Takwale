@@ -26,23 +26,20 @@ export default function Services() {
   return (
     <section className="relative w-full py-24 md:pt-50 md:pb-30 rounded-4xl  bg-white  z-1 -mt-16 px-4">
       <div className="relative grid grid-cols-1 md:grid-cols-[40%_55%] max-w-6xl mx-auto  gap-16  ">
-        <div
-          className="relative w-full min-h-[400px] sm:h-full rounded-4xl  mx-auto overflow-hidden"
-          style={{
-            backgroundImage: "url('/img/service left img.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundColor: "rgba(0,0,0,0.6)",
-            backgroundBlendMode: "multiply",
-            clipPath: `polygon(71% 0, 71% 8%, 100% 8% , 100% 100%, 0 100%, 0 0) `,
-            
-          }}
-        >
+<div className="w-full min-h-[400px] sm:h-full mx-auto rounded-4xl relative">
+  <div className="sticky top-[150px] ">
+    <Image
+      src="/img/service left img.png"
+      alt=""
+      width={500}
+      height={300}
+      className="object-cover object-center rounded-2xl brightness-75 w-full max-h-[400px]"
+    />
+  </div>
+</div>
 
-      
-        </div>
 
-        {/* <Image src="/img/service left img.jpg" alt="" width={500} height={300} className="object-cover object-center rounded-2xl" /> */}
+
 
         <div className="flex flex-col gap-6">
           <h2
@@ -78,7 +75,7 @@ export default function Services() {
                 </div>
                 <div>
                   <p
-                    className="text-[18px] px-10 font-[400] text-[var(--text_light)] leading-[1.2]"
+                    className="text-[18px] px-2 sm:px-10 font-[400] text-[var(--text_light)] leading-[1.2]"
                     style={{ fontFamily: "var(--font-switzer)" }}
                   >
                     {data.desc}

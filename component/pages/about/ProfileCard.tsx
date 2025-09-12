@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa6"
 export default function ProfileCard() {
   return (
     <section className="relative w-full py-30 md:py-30 rounded-4xl  bg-white  z-1 -mt-10 px-4">
-      <div className="relative grid grid-cols-1 md:grid-cols-[40%_55%] max-w-5xl mx-auto  gap-16  ">
+      <div className="relative grid grid-cols-1 md:grid-cols-[40%_55%] max-w-5xl mx-auto  gap-16 px-4 ">
         {/* Left: Profile Image */}
         <div className=" flex justify-center md:justify-start" >
     <Image
@@ -29,7 +29,7 @@ export default function ProfileCard() {
   // }}
       // "path('M20 0 H275 Q300 0 300 20 V80 Q300 100 320 100 H380 Q400 100 400 120 V500 H25 Q0 500 0 475 V25 Q0 0 25 0 Z')",
 
-  className="rounded-2xl object-cover max-h-[380px]  sticky top-[130px] mx-5"
+  className="rounded-2xl object-cover sm:max-h-[380px]  sticky top-[130px] mx-5"
 
 />
 
@@ -48,7 +48,7 @@ export default function ProfileCard() {
           {/* Name & Intro */}
           <div>
             <h2
-              className="text-4xl py-2 sm:text-[62px] font-bold text-gray-900 leading-[1.1] "
+              className="text-3xl py-2 sm:text-[62px] font-bold text-gray-900 leading-[1.1] "
               style={{ fontFamily: "var(--font-involve)" }}
             >
               Yogesh Digambar Takwale

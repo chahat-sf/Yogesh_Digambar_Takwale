@@ -40,12 +40,18 @@ export default function Hero() {
             value to investors and communities.{" "}
           </p>
           <div className="flex justify-center md:justify-end">
-            <button className="flex items-center justify-center border border-gray-500 px-2 py-2 gap-2 rounded-full pl-6 text-sm font-bold bg-white text-black  ">
-              View service
-              <span className="btn" style={{ padding: "10px" }}>
-                <ArrowUpRight/>
-              </span>
-            </button>
+           <button
+            className=" relative bg-[var(--primary)] hover:bg-black text-black hover:text-white w-fit rounded-full mx-auto sm:mx-0 sm:ml-auto flex px-2 gap-3 items-center justify-center group duration-300 font-bold capitalize pl-6 py-2 "
+            style={{ fontFamily: "var(--font-involve)" }}
+          >
+            get a call back
+            <span className="relative flex  justify-center w-10 h-10 items-center bg-white rounded-full overflow-hidden  ">
+              {/* Default Arrow (top-right exit) */}
+              <ArrowUpRight className="absolute transform transition-transform duration-600 group-hover:translate-x-8 group-hover:-translate-y-8" />
+              {/* New Arrow (bottom-left enter) */}
+              <ArrowUpRight className="absolute transform text-black translate-x-[-24px] translate-y-[24px] transition-transform duration-600 group-hover:translate-x-0 group-hover:translate-y-0 " />
+            </span>
+          </button>
           </div>
         </div>
 
