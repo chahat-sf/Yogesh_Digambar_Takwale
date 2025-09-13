@@ -57,9 +57,7 @@ export default function ProfileCard() {
               className="text-[var(--text)] text-[22px] font-medium leading-relaxed"
               style={{ fontFamily: "var(--font-switzer)" }}
             >
-              Lorem ipsum lobortis amet sit tristique quisque id nunc eu
-              consectetur velit diam id donec eu nunc laoreet cras vel tempor in
-              felis lorem ipsum id non.
+              We are a construction firm with more than a decade of experience in roads, buildings, and infrastructure. We deliver new builds, repairs, and retrofitting—with a track record across both government and private projects. 
             </p>
           </div>
 
@@ -74,13 +72,15 @@ export default function ProfileCard() {
                 href="mailto:dennis@example.com"
                 className="text-[var(--black)]  hover:underline"
               >
-                dennis@example.com
+                yogeshtakwale8882@gmail.com
+
+
               </a>
             </p>
           </div>
 
           <div className="text-[var(--text)] text-[16px] font-bold flex justify-between items-center border-y py-4">
-            <p className="text-[var(--black)]"> (004) 123 - 456 88</p> {/* Social Icons */}
+            <p className="text-[var(--black)]"> +(91) 9096-822-384 </p> {/* Social Icons */}
             <div className="flex items-center gap-4 text-[var(--text)]">
               <a href="#">
                 <FaFacebook size={16} />
@@ -102,12 +102,11 @@ export default function ProfileCard() {
             <h4 className="text-4xl font-bold text-black" style={{ fontFamily: "var(--font-involve)" }}
 >About me</h4>
             <p className="text-[18px] text-[var(--text)] font-[600px]">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
+              Our teams plan meticulously for quality, safety, sustainability, and timely delivery, navigating competitive tenders through strategic bidding and strong departmental coordination
             </p>
+<b>Promoter</b>
 
-            {/* List */}
+<b>Yogesh D. Takwale, India.</b>            {/* List */}
             <div className="font-bold text-[18px] py-6"
                         style={{ fontFamily: "var(--font-switzer)" }}
 
@@ -117,29 +116,25 @@ export default function ProfileCard() {
               
                   <span className="min-w-2 min-h-2 rounded-full -mt-6 bg-[var(--primary)]"></span>
                 
-                Lecturer, Medical Malpractice and Tort Matters to Legal
-                Community, New York State Trial Lawyers Institute
+               Government & Public Works – highways, municipal roads, public buildings
               </p>
                <p className="flex items-center my-2 gap-4">
               
                   <span className="min-w-2 min-h-2 rounded-full -mt-6 bg-[var(--primary)]"></span>
                 
-                Lecturer, Medical Malpractice and Tort Matters to Legal
-                Community, New York State Trial Lawyers Institute
+               Private Developers – residential & commercial projects
               </p>
                <p className="flex items-center my-2 gap-4">
               
                   <span className="min-w-2 min-h-2 rounded-full -mt-6 bg-[var(--primary)]"></span>
                 
-                Lecturer, Medical Malpractice and Tort Matters to Legal
-                Community, New York State Trial Lawyers Institute
+              Industrial – factory floors, plant retrofits, structural upgrades
               </p>
                <p className="flex items-center my-2 gap-4">
               
                   <span className="min-w-2 min-h-2 rounded-full -mt-6 bg-[var(--primary)]"></span>
                 
-                Lecturer, Medical Malpractice and Tort Matters to Legal
-                Community, New York State Trial Lawyers Institute
+               Institutional – education, healthcare, and campus infrastructure 
               </p>
             
              
@@ -148,9 +143,7 @@ export default function ProfileCard() {
             </div>
 
            <p className="text-[18px] text-[var(--text)] font-[600px]">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
+             Our lens: the TAM/SAM/SOM guide our disciplined pursuit of executable, ROI-positive projects.
             </p>
           </div>
         </div>

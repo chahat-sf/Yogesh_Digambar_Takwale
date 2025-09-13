@@ -8,18 +8,28 @@ interface ServicesContent {
 const service: ServicesContent[] = [
   {
     img: "/img/contractor.png",
-    title: "1Corporate Responsibility",
-    desc: "Our goal is zero incidents and our lost time frequency rate is industry leading.",
+    title: "Tender Competitiveness",
+    desc: "We craft winning bids even in high-stakes, multi-crore tenders.",
   },
   {
     img: "/img/contractor.png",
-    title: "2Corporate Responsibility",
-    desc: "Our goal is zero incidents and our lost time frequency rate is industry leading.",
+    title: "Resource Efficiency",
+    desc: "Optimized manpower, materials, and capital.",
   },
   {
     img: "/img/contractor.png",
-    title: "3Corporate Responsibility",
-    desc: "Our goal is zero incidents and our lost time frequency rate is industry leading.",
+    title: "Local Network Strength",
+    desc: "Smooth execution via departmental coordination.",
+  },
+  {
+    img: "/img/contractor.png",
+    title: "Adaptive Expertise",
+    desc: "Rapid roads & complex long-term building works.",
+  },
+  {
+    img: "/img/contractor.png",
+    title: "Specialized Retrofitting",
+    desc: "Extend the life of aging infrastructure",
   },
 ];
 export default function Services() {
@@ -46,21 +56,17 @@ export default function Services() {
             className="text-5xl  md:text-[70px] font-[700] text-[var(--black )] leading-[1.1]"
             style={{ fontFamily: "var(--font-involve)" }}
           >
-            What makes us different
-          </h2>
+Why Choose Us          </h2>
           <p
             className="text-[18px] font-[400] text-[var(--text)]"
             style={{ fontFamily: "var(--font-switzer)" }}
           >
-            It’s not just about creating something good; it’s about designing,
-            innovating, and collaborating to forge remarkable and unparalleled
-            experiences.
-          </p>
+Compared to large EPCs, our low overhead and regional strength add flexibility without compromising standards—especially valuable on retrofitting and time-sensitive works. (Deck includes a competitor landscape for internal reference.)          </p>
           <div className="flex flex-col">
             {service.map((data, index) => (
               <div
                 key={index}
-                className="grid grid-cols-1 md:grid-cols-[42%_55%] gap-6 items-center py-8 border-t border-[var(--border)]"
+                className="grid grid-cols-1 md:grid-cols-[42%_55%] gap-6 items-center py-6 border-t border-[var(--border)]"
               >
                 <div className="flex flex-row gap-10 items-center">
                   <div className="p-5 bg-[var(--primary)] flex flex-col items-center justify-center rounded-full">

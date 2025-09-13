@@ -11,18 +11,18 @@ interface CardItem {
 const cards: CardItem[] = [
   {
     img: "/img/contractor.png",
-    title: "High quality products",
-    desc: "The luxurious and exquisite design harmonious with the surrounding architecture provide the best living.",
+    title: "Core Construction",
+    desc: "Road Construction & Maintenance Building Construction (Residential / Commercial / Institutional)",
   },
   {
     img: "/img/engineer.png",
-    title: "Trusted by customers",
-    desc: "We focus on building long-lasting trust with our customers by ensuring transparency and reliability.",
+    title: "Rehabilitation & Safety",
+    desc: "Repair & Structural Strengthening of Old Structures Specialized Retrofitting for Enhanced Safety/Lifecycle",
   },
   {
     img: "/img/volunteer.png",
-    title: "Sustainable solutions",
-    desc: "Eco-friendly and innovative solutions that match modern lifestyle needs and care for the environment.",
+    title: "Materials & Delivery",
+    desc: "High-quality Building Materials (structural)Road Components & Supplies Tender Bidding, Project Management & Execution",
   },
 ];
 

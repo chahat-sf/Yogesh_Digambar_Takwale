@@ -31,7 +31,7 @@ Takwale</span>
           <ul className="space-y-3">
             <li><Link href="#" className="hover:text-[var(--primary)]">Our Projects</Link></li>
             <li><Link href="#" className="hover:text-[var(--primary)]">News & Updates</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Terms & Conditions</Link></li>
+            <li><Link href="/terms" className="hover:text-[var(--primary)]">Terms & Conditions</Link></li>
             <li><Link href="#" className="hover:text-[var(--primary)]">Support Center</Link></li>
             <li><Link href="#" className="hover:text-[var(--primary)]">Contact</Link></li>
           </ul>
@@ -40,10 +40,10 @@ Takwale</span>
         {/* Contact Info */}
         <div className="space-y-4">
           <p className="font-bold text-lg">
-            <span className="border-b-2 border-[var(--primary)] pb-1">+(084) 123 - 45688</span>
+            <span className="border-b-2 border-[var(--primary)] pb-1">+(91) 9096-822-384</span>
           </p>
           <p className="font-bold text-lg">
-            <span className="border-b-2 border-[var(--primary)] pb-1">spaciaz@example.com</span>
+            <span className="border-b-2 border-[var(--primary)] pb-1">yogeshtakwale8882@gmail.com</span>
           </p>
 
           {/* Social Links */}
