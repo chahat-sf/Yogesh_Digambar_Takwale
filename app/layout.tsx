@@ -53,19 +53,19 @@ export const involve = localFont({
   variable: "--font-involve",
 });
 
-// // URW Gothic
-// export const urwGothic = localFont({
-//   src: "../public/fonts/URWGothicL-Demi.woff2",
-//   weight: "600",
-//   style: "normal",
-//   variable: "--font-urw",
-// });
+// URW Gothic
+export const urwGothic = localFont({
+  src: "../public/fonts/URWGothicL-Demi.woff2",
+  weight: "600",
+  style: "normal",
+  variable: "--font-urw",
+});
 
-// // Spaciaz (icon font)
-// export const spaciaz = localFont({
-//   src: "../public/fonts/spaciaz-icon-1.1.0.woff2",
-//   variable: "--font-spaciaz",
-// });
+// Spaciaz (icon font)
+export const spaciaz = localFont({
+  src: "../public/fonts/spaciaz-icon-1.1.0.woff2",
+  variable: "--font-spaciaz",
+});
 
 export const metadata: Metadata = {
   title: "Yogesh Digambar Takwale",
@@ -80,7 +80,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${switzer.variable} ${involve.variable} `}
+      className={`${switzer.variable} ${involve.variable} ${urwGothic.variable} ${spaciaz.variable} `}
     >
       <body  className=" antialiased  " >
         <Navbar />

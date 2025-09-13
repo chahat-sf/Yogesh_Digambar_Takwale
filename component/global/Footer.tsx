@@ -19,7 +19,8 @@ Takwale</span>
         </div>
 
         {/* Links */}
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1  justify-center sm:mx-auto  gap-1">
+          <p className="font-bold ">Quick Links</p>
           <ul className="space-y-3">
             <li><Link href="#" className="hover:text-[var(--primary)]">Home</Link></li>
             <li><Link href="#" className="hover:text-[var(--primary)]">About</Link></li>
