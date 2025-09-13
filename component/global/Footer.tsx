@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-white  pt-12 pb-6 rounded-4xl max-w-6xl mx-2 sm:mx-auto ">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-3 gap-10 rounded-4xl border border-gray-200 py-12">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 rounded-4xl border border-gray-200 py-12">
         {/* Logo + Description */}
         <div>
           <div className="flex items-center gap-2">
@@ -21,20 +21,13 @@ Takwale</span>
         {/* Links */}
         <div className="grid grid-cols-2 gap-6">
           <ul className="space-y-3">
-            <li><Link href="#" className="hover:text-[var(--primary)]">About Us</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Why Choose Us</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Our Team</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Solutions</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Partners</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Core Values</Link></li>
-          </ul>
-          <ul className="space-y-3">
-            <li><Link href="#" className="hover:text-[var(--primary)]">Our Projects</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">News & Updates</Link></li>
+            <li><Link href="#" className="hover:text-[var(--primary)]">Home</Link></li>
+            <li><Link href="#" className="hover:text-[var(--primary)]">About</Link></li>
+            <li><Link href="#" className="hover:text-[var(--primary)]">Conatct Us</Link></li>
             <li><Link href="/terms" className="hover:text-[var(--primary)]">Terms & Conditions</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Support Center</Link></li>
-            <li><Link href="#" className="hover:text-[var(--primary)]">Contact</Link></li>
-          </ul>
+
+       
+       </ul>
         </div>
 
         {/* Contact Info */}
