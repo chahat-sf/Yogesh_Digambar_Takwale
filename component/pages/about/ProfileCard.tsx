@@ -10,7 +10,7 @@ export default function ProfileCard() {
         {/* Left: Profile Image */}
         <div className=" flex justify-center md:justify-start" >
     <Image
-  src="/img/service left img.jpg"
+  src="/img/service_left_img.jpg"
   alt="Profile"
   width={400}
   height={200}

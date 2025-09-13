@@ -15,27 +15,27 @@ const card: carddata[] = [
   {
     heading: "Road Construction & Maintenance",
     desc: "Delivering high-quality road infrastructure with precision, durability, and timely execution.",
-    img: "/img/service-1.png",
+    img: "/img/service_1.png",
   },
   {
     heading: "Repair & Strengthening of Old Structures",
     desc: "Enhancing structural integrity and extending lifespan through expert repair and reinforcement.",
-    img: "/img/service-2.png",
+    img: "/img/service_2.png",
   },
   {
     heading: "Specialized Retrofitting for Enhanced Safety & Life",
     desc: "Implementing advanced retrofitting solutions to maximize safety, resilience, and longevity.",
-    img: "/img/service-3.png",
+    img: "/img/service_3.png",
   },
   {
     heading: "Material Supply (building & road components)",
     desc: "Providing premium-quality materials to ensure strong, reliable, and sustainable construction.",
-    img: "/img/service-4.png",
+    img: "/img/service_4.png",
   },
   {
     heading: "Tender Bidding, Project Execution & Management",
     desc: "Expertly managing projects from tender to delivery, ensuring efficiency and compliance.",
-    img: "/img/service-5.png",
+    img: "/img/service_5.png",
   },
 ];
 

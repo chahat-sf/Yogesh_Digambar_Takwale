@@ -39,7 +39,7 @@ export default function Services() {
 <div className="w-full min-h-[400px] sm:h-full mx-auto rounded-4xl relative">
   <div className="sticky top-[150px] ">
     <Image
-      src="/img/service left img.png"
+      src="/img/service_left_img.png"
       alt=""
       width={500}
       height={300}
