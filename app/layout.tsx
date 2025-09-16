@@ -8,27 +8,27 @@ import Footer from "@/component/global/Footer";
 export const switzer = localFont({
   src: [
     {
-      path: "./fonts/Switzer-Regular.woff2",
+      path: "@/fonts/Switzer-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "@/fonts/Switzer-SemiBold.woff2",
       weight: "600",
       style: "normal",
     },
      {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "@/fonts/Switzer-SemiBold.woff2",
       weight: "700",
       style: "normal",
     },
      {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "@/fonts/Switzer-SemiBold.woff2",
       weight: "800",
       style: "normal",
     },
      {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "@/fonts/Switzer-SemiBold.woff2",
       weight: "900",
       style: "normal",
     },
@@ -40,12 +40,12 @@ export const switzer = localFont({
 export const involve = localFont({
   src: [
     {
-      path: "./fonts/Involve-SemiBold.woff2",
+      path: "@/fonts/Involve-SemiBold.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/Involve-SemiBold.woff2",
+      path: "@/fonts/Involve-SemiBold.woff2",
       weight: "600",
       style: "normal",
     },
@@ -55,7 +55,7 @@ export const involve = localFont({
 
 // URW Gothic
 export const urwGothic = localFont({
-  src: "./fonts/URWGothicL-Demi.woff2",
+  src: "@/fonts/URWGothicL-Demi.woff2",
   weight: "600",
   style: "normal",
   variable: "--font-urw",
@@ -63,7 +63,7 @@ export const urwGothic = localFont({
 
 // Spaciaz (icon font)
 export const spaciaz = localFont({
-  src: "./fonts/spaciaz-icon-1.1.0.woff2",
+  src: "@/fonts/spaciaz-icon-1.1.0.woff2",
   variable: "--font-spaciaz",
 });
 
