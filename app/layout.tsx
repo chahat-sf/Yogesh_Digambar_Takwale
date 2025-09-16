@@ -17,21 +17,21 @@ export const switzer = localFont({
       weight: "600",
       style: "normal",
     },
-    {
-      path: "/fonts/Switzer-SemiBold.woff2",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "/fonts/Switzer-SemiBold.woff2",
-      weight: "800",
-      style: "normal",
-    },
-    {
-      path: "/fonts/Switzer-SemiBold.woff2",
-      weight: "900",
-      style: "normal",
-    },
+    // {
+    //   path: "/fonts/Switzer-SemiBold.woff2",
+    //   weight: "700",
+    //   style: "normal",
+    // },
+    // {
+    //   path: "/fonts/Switzer-SemiBold.woff2",
+    //   weight: "800",
+    //   style: "normal",
+    // },
+    // {
+    //   path: "/fonts/Switzer-SemiBold.woff2",
+    //   weight: "900",
+    //   style: "normal",
+    // },
   ],
   variable: "--font-switzer",
 });
