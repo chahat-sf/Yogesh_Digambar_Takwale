@@ -42,15 +42,15 @@ export default function PopupForm({ isOpen, onClose }: { isOpen: boolean; onClos
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+             "service_f8etb1n", // replace with your EmailJS service ID
+        "template_vwplfbp", // replace with your template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           phone: formData.phone,
           message: formData.message,
         },
-        "YOUR_PUBLIC_KEY"
+        "ngHOdaoWVgYAAkiAB" // replace with your EmailJS public key
       )
       .then(() => {
         setLoading(false);

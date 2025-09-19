@@ -61,15 +61,15 @@ setSubmitError("");
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID", // replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // replace with your template ID
+        "service_f8etb1n", // replace with your EmailJS service ID
+        "template_y0u1jjg", // replace with your template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           phone: formData.phone,
           inquiry: formData.inquiry,
         },
-        "YOUR_PUBLIC_KEY" // replace with your EmailJS public key
+        "ngHOdaoWVgYAAkiAB" // replace with your EmailJS public key
       )
       .then(() => {
         setLoading(false);
