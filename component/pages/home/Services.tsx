@@ -36,14 +36,14 @@ export default function Services() {
   return (
     <section className="relative w-full py-24 md:pt-50 md:pb-30 rounded-4xl  bg-white  z-1 -mt-16 px-4">
       <div className="relative grid grid-cols-1 md:grid-cols-[40%_55%] max-w-6xl mx-auto  gap-16  ">
-<div className="w-full min-h-[400px] sm:h-full mx-auto rounded-4xl relative">
+<div className="w-full min-h-[450px] sm:h-full mx-auto rounded-4xl relative">
   <div className="sticky top-[150px] ">
     <Image
-      src="/img/service_left_img.png"
+      src="/img/yogesh.jpeg"
       alt=""
       width={500}
-      height={300}
-      className="object-cover object-center rounded-2xl brightness-75 w-full max-h-[400px]"
+      height={200}
+      className="object-cover object-top rounded-2xl brightness-75 w-full "
     />
   </div>
 </div>

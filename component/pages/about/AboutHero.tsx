@@ -6,7 +6,7 @@ export default function AboutHero() {
     <section
       className=" relative w-full  justify-center items-center pb-20"
       style={{
-        backgroundImage: "url('/img/about-bc.jpg')",
+        backgroundImage: "url('/img/telhara.jpeg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundColor: "rgba(0,0,0,0.6)", // black overlay

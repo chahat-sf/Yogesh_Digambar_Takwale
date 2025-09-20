@@ -10,7 +10,7 @@ export default function ProfileCard() {
         {/* Left: Profile Image */}
         <div className=" flex justify-center md:justify-start" >
     <Image
-  src="/img/service_left_img.jpg"
+  src="/img/yogesh.jpeg"
   alt="Profile"
   width={400}
   height={200}
@@ -29,7 +29,7 @@ export default function ProfileCard() {
   // }}
       // "path('M20 0 H275 Q300 0 300 20 V80 Q300 100 320 100 H380 Q400 100 400 120 V500 H25 Q0 500 0 475 V25 Q0 0 25 0 Z')",
 
-  className="rounded-2xl object-cover sm:max-h-[380px]  sticky top-[130px] mx-5"
+  className="rounded-2xl object-cover sm:max-h-[480px]  sticky top-[130px] mx-5"
 
 />
 

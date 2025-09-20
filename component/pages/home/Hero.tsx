@@ -24,11 +24,12 @@ export default function Hero() {
     <section
       className=" relative w-full min-h-fit pb-10  justify-center items-center"
       style={{
-        backgroundImage: "url('/img/hero bg img.jpg')",
+        backgroundImage: "url('/img/telhara.jpeg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundColor: "rgba(0,0,0,0.6)", // black overlay
         backgroundBlendMode: "multiply",
+        backgroundRepeat:"no-repeat"
         
       }}
     >
