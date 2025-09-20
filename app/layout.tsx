@@ -13,22 +13,22 @@ import Footer from "@/component/global/Footer";
       style: "normal",
     },
     {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "./fonts/Switzer-Semibold.woff2",
       weight: "600",
       style: "normal",
     },
     {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "./fonts/Switzer-Semibold.woff2",
       weight: "700",
       style: "normal",
     },
     {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "./fonts/Switzer-Semibold.woff2",
       weight: "800",
       style: "normal",
     },
     {
-      path: "./fonts/Switzer-SemiBold.woff2",
+      path: "./fonts/Switzer-Semibold.woff2",
       weight: "900",
       style: "normal",
     },
