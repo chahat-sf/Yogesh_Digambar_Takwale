@@ -5,7 +5,7 @@ import Navbar from "@/component/global/Navbar";
 import Footer from "@/component/global/Footer";
 
 // Switzer
-export const switzer = localFont({
+ const switzer = localFont({
   src: [
     {
       path: "./fonts/Switzer-Regular.woff2",
@@ -37,7 +37,7 @@ export const switzer = localFont({
 });
 
 // Involve
-export const involve = localFont({
+ const involve = localFont({
   src: [
     {
       path: "./fonts/Involve-SemiBold.woff2",
@@ -54,7 +54,7 @@ export const involve = localFont({
 });
 
 // URW Gothic
-export const urwGothic = localFont({
+ const urwGothic = localFont({
   src: "./fonts/URWGothicL-Demi.woff2",
   weight: "600",
   style: "normal",
@@ -62,7 +62,7 @@ export const urwGothic = localFont({
 });
 
 // Spaciaz (icon font)
-export const spaciaz = localFont({
+ const spaciaz = localFont({
   src: "./fonts/spaciaz-icon-1.1.0.woff2",
   variable: "--font-spaciaz",
 });
