@@ -51,10 +51,22 @@ Takwale</span>
       </div>
 
       {/* Bottom */}
-      <div className="  border-gray-200 pt-6 text-center text-gray-500 text-sm">
-        © 2025 <span className="font-bold">Yogesh Digambar
-Takwale.</span> All Rights Reserved.
-      </div>
+     <div className="border-gray-200 pt-6 text-center text-gray-500 text-sm">
+  © 2025 <span className="font-bold">Yogesh Digambar Takwale.</span> All Rights Reserved.
+  <br />
+  <span className="text-gray-600">
+    Designed and Developed by{" "}
+    <a
+      href="https://startupflora.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-500 font-semibold hover:underline"
+    >
+      StartupFlora
+    </a>
+    .
+  </span>
+</div>
     </footer>
   );
 }
