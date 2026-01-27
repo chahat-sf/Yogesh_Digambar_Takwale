@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { X } from "lucide-react";
 
 export default function PopupForm({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
