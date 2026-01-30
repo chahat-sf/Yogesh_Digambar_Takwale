@@ -1,0 +1,37 @@
+# Deploy to CloudPanel server via Dploy when pushing to main
+# https://www.cloudpanel.io/docs/v2/dploy/installation/
+#
+# Required GitHub secrets:
+#   DEPLOY_HOST  - Server IP (e.g. 69.62.74.6)
+#   DEPLOY_USER  - SSH user (e.g. yogeshdtakwale)
+#   DEPLOY_SSH_KEY - Private SSH key for deployment
+
+name: Deploy to server
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to deploy'
+        required: true
+        default: 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          command_timeout: 45m
+          script: |
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            nvm use 20
+            export npm_config_loglevel=verbose
+            dploy deploy ${{ github.event.inputs.branch || 'main' }}
