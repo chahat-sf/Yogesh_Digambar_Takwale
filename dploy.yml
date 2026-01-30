@@ -7,8 +7,8 @@ project:
 
     before_commands:
       - 'export NPM_CONFIG_CACHE=$HOME/htdocs/yogeshdtakwale.com/shared/.npm-cache && mkdir -p $NPM_CONFIG_CACHE'
-      - 'cd {release_directory} && npm ci --loglevel=verbose'
-      - 'cd {release_directory} && npm run build'
+      - 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 && cd {release_directory} && npm ci --loglevel=verbose'
+      - 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 && cd {release_directory} && npm run build'
       - >
         cd {release_directory} &&
         rm -rf .deploy_runtime &&
@@ -24,5 +24,5 @@ project:
         chmod -R +x node_modules/.bin node_modules/next/dist/bin 2>/dev/null || true
 
     after_commands:
-      - "pm2 restart 'yogeshdtakwale-app' --update-env || pm2 start npm --name 'yogeshdtakwale-app' --cwd {release_directory} -- start -- -p 3012 --hostname 0.0.0.0"
+      - 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 && (pm2 restart "yogeshdtakwale-app" --update-env || pm2 start npm --name "yogeshdtakwale-app" --cwd {release_directory} -- start -- -p 3012 --hostname 0.0.0.0)'
       - 'pm2 save'
